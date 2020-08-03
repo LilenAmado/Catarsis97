@@ -2,7 +2,7 @@
 html{font-size: 18px; scroll-behavior: smooth;}
 
 /************************************ SITIO ENTERO *****************************************************************/
-/********************************* HEADER **************************************************/
+/********************************* HEADER **************************************************************************/
 .header{
     background-color: rgb(255, 255, 255);
     display: flex;
@@ -71,10 +71,9 @@ html{font-size: 18px; scroll-behavior: smooth;}
     text-decoration: none;
     transition: all .5s ease;
 }
-/************************************ FIN SITIO **********************************************************************/
-
+/************************************ FIN SITIO ************************************************************************/
 /************************************ PAG: HOME ***********************************************************************/
-/************************************ SECC-1 ***********************************************/
+/************************************ SECC-1 *************************************************************************/
 .h2text{
     text-align: center;
     font-size: 1.8rem;
@@ -155,7 +154,6 @@ html{font-size: 18px; scroll-behavior: smooth;}
     color: white;
 }
 /************************************ FIN PAG: HOME *****************************************************************/
-
 /************************* PAG: BIOGRAFIA (COPIADO DEL ANTERIOR PROYECTO) *******************************************/
 .fondobibliografia{
     background-color: rgb(160, 160, 160);
@@ -904,8 +902,7 @@ html{font-size: 18px; scroll-behavior: smooth;}
     .esteh2{font-size: 1.9rem;}
 }
 /************************************ FIN PAG: BIOGRAFIA ***************************************************************/
-
-/************************************ PAG: CONTACTO *************************************************************/
+/************************************ PAG: CONTACTO ********************************************************************/
 .smallLetra{
     margin-top: -.8rem; 
     margin-bottom: 1rem;
@@ -989,9 +986,7 @@ html{font-size: 18px; scroll-behavior: smooth;}
     background-attachment: fixed;
 }
 /************************************ FIN PAG: CONTACTO ***************************************************************/
-
 /************************************ PAG: MERCH *********************************************************************/
-
 .intentocard{
     max-width: 90%;
     margin-left: auto;
@@ -1002,21 +997,13 @@ html{font-size: 18px; scroll-behavior: smooth;}
     box-shadow: 1px 2px 5px 0px rgba(0,0,0,0.75);
 }
 .cajasMerch{
-    /*margin-left: .5rem;
-    margin-right: .5rem;*/
     margin-top: 3rem;
     -webkit-box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.75);
     box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.75);
-    /*border: 1px rgb(165, 164, 163) solid; rgb(184, 184, 184)*/
     background-color: rgba(240, 233, 233, 0.13);
 }
 .botonMerch{
-    /*border: 1.1px solid rgb(8, 95, 16);
-    background-color: rgb(19, 177, 32);*/
-    
-    /*background-color: #71B100;
-    border: rgb(84, 131, 3) 1.1px solid;*/
     background-color: tomato;
     border: rgb(250, 77, 46) 1.1px solid;
     color: white;
@@ -1039,8 +1026,7 @@ html{font-size: 18px; scroll-behavior: smooth;}
     font-size: 18px;
     color: rgba(0, 0, 0, 0.801);
 }
-/************************************* FIN PAG: MERCH ****************************************************************
-
+/************************************* FIN PAG: MERCH ******************************************************************/
 /********************************** MEDIA QUERIES REAL******************************************************************/
 @media screen and (min-width:0px) and (max-width:299px){
     .logoCatarsis{
@@ -1394,17 +1380,8 @@ html{font-size: 18px; scroll-behavior: smooth;}
         grid-template-columns: repeat(3, 1fr);
     }
 }
-
-
 @media only screen and (orientation: landscape){
     .logoCatarsis{
         height: 50px;
     }
 }
-
-/* Smartphones (landscape) ----------- *//*
-@media only screen and (min-width : 321px){
-    .logoCatarsis{
-        height: 15vh;
-    }
-}*/
