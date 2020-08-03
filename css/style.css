@@ -1046,7 +1046,7 @@ html{font-size: 18px; scroll-behavior: smooth;}
     .logoCatarsis{
         margin: .25rem 1rem;
         margin-top: .5rem;
-        height: 8vh;
+        height: 50px/*8vh*/;
     }
     .header{
         background-color: rgba(255, 255, 255);
@@ -1087,7 +1087,7 @@ html{font-size: 18px; scroll-behavior: smooth;}
     .logoCatarsis{
         margin: .25rem 1rem;
         margin-top: .5rem;
-        height: 8vh;
+        height: 50px/*8vh*/;
     }
     .medio{
         display: none;
@@ -1112,7 +1112,7 @@ html{font-size: 18px; scroll-behavior: smooth;}
     .logoCatarsis{
         margin: .25rem 1rem;
         margin-top: .5rem;
-        height: 8vh;
+        height: 50px/*8vh*/;
     }
     .medio{
         display: block;
@@ -1154,7 +1154,7 @@ html{font-size: 18px; scroll-behavior: smooth;}
     .logoCatarsis{
         margin: .25rem 1rem;
         margin-top: .5rem;
-        height: 8vh;
+        height: 50px/*8vh*/;
     }
     .medio{
         display: grid;
@@ -1180,7 +1180,7 @@ html{font-size: 18px; scroll-behavior: smooth;}
     .logoCatarsis{
         margin: .25rem 1rem;
         margin-top: .5rem;
-        height: 8vh;
+        height: 50px/*8vh*/;
     }
     .medio{
         display: grid;
@@ -1210,7 +1210,7 @@ html{font-size: 18px; scroll-behavior: smooth;}
     .logoCatarsis{
         margin: .25rem 1rem;
         margin-top: .5rem;
-        height: 8vh;
+        height: 50px/*8vh*/;
     }
     .medio{
         display: grid;
@@ -1245,7 +1245,7 @@ html{font-size: 18px; scroll-behavior: smooth;}
     .logoCatarsis{
         margin: .25rem 1rem;
         margin-top: .5rem;
-        height: 8vh;
+        height: 50px/*8vh*/;
     }
     .medio{
         display: grid;
@@ -1395,10 +1395,10 @@ html{font-size: 18px; scroll-behavior: smooth;}
     }
 }
 
-/*
+
 @media only screen and (orientation: landscape){
     .logoCatarsis{
-        height: 15vh;
+        height: 50px;
     }
 }
 
